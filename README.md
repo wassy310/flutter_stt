@@ -6,7 +6,7 @@ Intended for use with Android and iOS smartphones.
 - Clone this project.
   - `git clone https://github.com/wassy310/flutter_stt`
 - Debug & Run
-  - `flutter run`
+  - ./lib/main.dart > `flutter run`
 
 For more information on building a flutter runtime environment, please refer to [this page](https://docs.flutter.dev/get-started/install).
 
