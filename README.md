@@ -27,4 +27,4 @@ For more information on building a flutter runtime environment, please refer to 
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
 
 ## Contact
-Bugs and feature requests please visit [GitHub Issues](https://github.com/wassy310/flutter_camera_app/issues).
+Bugs and feature requests please visit [GitHub Issues](https://github.com/wassy310/flutter_stt/issues).
