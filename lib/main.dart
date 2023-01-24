@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'say:$lastWords',
+              'say: $lastWords',
               style: Theme.of(context).textTheme.headline4,
             ),
             Text(
