@@ -1,16 +1,28 @@
 # stt
-
-A new Flutter project.
+It is an application that converts what you say into text.  
+Intended for use with Android and iOS smartphones.
 
 ## Getting Started
+- Clone this project.
+  - `git clone https://github.com/wassy310/flutter_stt`
+- Debug & Run
+  - `flutter run`
 
-This project is a starting point for a Flutter application.
+For more information on building a flutter runtime environment, please refer to [this page](https://docs.flutter.dev/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+## Environments
+|        |                                        |
+|  :-:   | -------------------------------------- |
+| OS     | Windows 10 Pro                         |
+| IDE    | Visual Studio Code                     |
+| SDK    | Flutter 3.9.9                          |
+| OTHERS | Android emulator (Pixel 2)             |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Packages
+- [speech_to_text](https://pub.dev/packages/speech_to_text)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+[Wassy | Ryoga Washizawa](https://github.com/wassy310)
+
+## Contact
+Bugs and feature requests please visit [GitHub Issues](https://github.com/wassy310/flutter_camera_app/issues).
