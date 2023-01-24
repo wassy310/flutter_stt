@@ -96,6 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: _speak, child: const Icon(Icons.play_arrow)),
         FloatingActionButton(onPressed: _stop, child: const Icon(Icons.stop))
       ]),
+      drawer: const Drawer(
+        child: Center(child: Text("drawer")),
+      ),
     );
   }
 }
