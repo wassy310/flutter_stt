@@ -18,7 +18,7 @@ For more information on building a flutter runtime environment, please refer to 
 | OS     | Windows 10 Pro                         |
 | IDE    | Visual Studio Code                     |
 | SDK    | Flutter 3.9.9                          |
-| OTHERS | Android emulator (Pixel 2), Xperia Ace |
+| DEBUG  | Android emulator (Pixel 2), Xperia Ace |
 
 ## Packages
 - [speech_to_text](https://pub.dev/packages/speech_to_text)
