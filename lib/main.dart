@@ -103,12 +103,12 @@ class _MyHomePageState extends State<MyHomePage> {
       endDrawer: Drawer(
         child: ListView(children: const <Widget>[
           DrawerHeader(
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
             child: Text(
               "Other features",
               style: TextStyle(fontSize: 24, color: Colors.white),
-            ),
-            decoration: BoxDecoration(
-              color: Colors.blue,
             ),
           ),
           ListTile(
