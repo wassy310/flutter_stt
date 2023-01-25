@@ -4,7 +4,7 @@ import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 
-import 'dart:developer' as developer;
+import 'dart:developer' as dev;
 
 void main() {
   runApp(const MyApp());
@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void statusListener(String status) {
-    developer.log(
+    dev.log(
         'Received listener status: $status, listening: ${speech.isListening}');
     setState(() {
       lastStatus = status;
