@@ -5,13 +5,13 @@ Intended for use with Android and iOS smartphones.
 For more information on Flutter, please [click here](https://github.com/flutter/flutter).
 
 ## Getting Started
-1. Use Git
+### 1. Use Git
 - Clone this project.
   - `git clone https://github.com/wassy310/flutter_stt`
 - Debug & Run
   - `flutter run`
 
-2. Use Release
+### 2. Use Release
 - [Download](https://github.com/wassy310/flutter_stt/releases)
   - Download the latest version
 
