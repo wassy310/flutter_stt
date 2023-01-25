@@ -97,8 +97,26 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: _speak, child: const Icon(Icons.play_arrow)),
         FloatingActionButton(onPressed: _stop, child: const Icon(Icons.stop))
       ]),
-      drawer: const Drawer(
-        child: Center(child: Text("drawer")),
+      // drawer: const Drawer(
+      //   child: Center(child: Text("drawer")),
+      // ),
+      drawer: Drawer(
+        child: ListView(children: <Widget>[
+          DrawerHeader(
+            child: Text("Drawer Header"),
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            trailing: Icon(Icons.arrow_forward),
+          ),
+          ListTile(
+            title: Text("Item 2"),
+            trailing: Icon(Icons.arrow_forward),
+          ),
+        ]),
       ),
     );
   }
