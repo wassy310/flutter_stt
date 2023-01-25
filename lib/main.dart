@@ -73,6 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(widget.title),
       ),
@@ -95,25 +96,35 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(mainAxisAlignment: MainAxisAlignment.end, children: [
         FloatingActionButton(
             onPressed: _speak, child: const Icon(Icons.play_arrow)),
-        FloatingActionButton(onPressed: _stop, child: const Icon(Icons.stop))
+        SizedBox(width: 20),
+        FloatingActionButton(onPressed: _stop, child: const Icon(Icons.stop)),
       ]),
       // ignore_for_file: prefer_const_constructors
       drawer: Drawer(
         child: ListView(children: const <Widget>[
           DrawerHeader(
-            child: Text("Drawer Header"),
+            child: Text(
+              "Other features",
+              style: TextStyle(fontSize: 24, color: Colors.white),
+            ),
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
           ),
           ListTile(
-            title: Text("Item 1"),
+            title: Text(
+              "Settings",
+              style: TextStyle(fontSize: 18),
+            ),
             trailing: Icon(Icons.arrow_forward),
           ),
-          ListTile(
-            title: Text("Item 2"),
-            trailing: Icon(Icons.arrow_forward),
-          ),
+          // ListTile(
+          //   title: Text(
+          //     "Item",
+          //     style: TextStyle(fontSize: 18),
+          //   ),
+          //   trailing: Icon(Icons.arrow_forward),
+          // ),
         ]),
       ),
     );
