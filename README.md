@@ -1,7 +1,8 @@
 # flutter_stt
 ## Overview
 It is an application that converts what you say into text.  
-Intended for use with Android and iOS smartphones.
+Intended for use with Android and iOS smartphones.  
+For more information on Flutter, please [click here](https://github.com/flutter/flutter).
 
 ## Getting Started
 - Clone this project.
