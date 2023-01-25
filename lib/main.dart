@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Speech to Text'),
+      home: const MyHomePage(title: 'Home'),
       debugShowCheckedModeBanner: false,
     );
   }
