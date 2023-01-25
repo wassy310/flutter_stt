@@ -97,11 +97,9 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: _speak, child: const Icon(Icons.play_arrow)),
         FloatingActionButton(onPressed: _stop, child: const Icon(Icons.stop))
       ]),
-      // drawer: const Drawer(
-      //   child: Center(child: Text("drawer")),
-      // ),
+      // ignore_for_file: prefer_const_constructors
       drawer: Drawer(
-        child: ListView(children: <Widget>[
+        child: ListView(children: const <Widget>[
           DrawerHeader(
             child: Text("Drawer Header"),
             decoration: BoxDecoration(
