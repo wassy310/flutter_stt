@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+
 import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
+
+import 'dart:developer' as developer;
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
     bool available = await speech.initialize(
         onError: errorListener, onStatus: statusListener);
     if (available) {
-      speech.listen(onResult: resultListener);
+      await speech.listen(onResult: resultListener);
     } else {
       print("The user has denied the use of speech recognition.");
     }
@@ -65,6 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void statusListener(String status) {
+    developer.log(
+        'Received listener status: $status, listening: ${speech.isListening}');
     setState(() {
       lastStatus = status;
     });
