@@ -5,10 +5,15 @@ Intended for use with Android and iOS smartphones.
 For more information on Flutter, please [click here](https://github.com/flutter/flutter).
 
 ## Getting Started
+1. Use Git
 - Clone this project.
   - `git clone https://github.com/wassy310/flutter_stt`
 - Debug & Run
   - `flutter run`
+
+2. Use Release
+- [Download](https://github.com/wassy310/flutter_stt/releases)
+  - Download the latest version
 
 For more information on building a flutter runtime environment, please refer to [this page](https://docs.flutter.dev/get-started/install).
 
@@ -26,6 +31,9 @@ For more information on building a flutter runtime environment, please refer to 
 
 ## Author
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
+
+## LICENSE
+[Apache-2.0 license](https://github.com/apache/.github/blob/main/LICENSE)
 
 ## Contact
 Bugs and feature requests please visit [GitHub Issues](https://github.com/wassy310/flutter_stt/issues).
