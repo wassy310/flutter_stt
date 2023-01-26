@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
         FloatingActionButton(onPressed: _stop, child: const Icon(Icons.stop)),
       ]),
       // ignore_for_file: prefer_const_constructors
-      endDrawer: Drawer(
+      drawer: Drawer(
         child: ListView(children: const <Widget>[
           DrawerHeader(
             decoration: BoxDecoration(
