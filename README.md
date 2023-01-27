@@ -25,10 +25,11 @@ For more information on building a flutter runtime environment, please refer to 
 | FW     | Flutter 3.9.9, Firebase                |
 | DEBUG  | Android 9                              |
 
-## Packages
+## Packages, Tools
 - [speech_to_text](https://pub.dev/packages/speech_to_text)
 - [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
-- [firebase](https://firebase.google.com/)
+- [Firebase](https://firebase.google.com/)
+- [firebase_crashlytics](https://firebase.google.com/docs/crashlytics)
 
 ## Author
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
