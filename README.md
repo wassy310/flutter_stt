@@ -22,7 +22,7 @@ For more information on building a flutter runtime environment, please refer to 
 |  :-:   | -------------------------------------- |
 | OS     | Windows 10 Pro                         |
 | IDE    | Visual Studio Code                     |
-| SDK    | Flutter 3.9.9                          |
+| FW     | Flutter 3.9.9, Firebase                |
 | DEBUG  | Android 9                              |
 
 ## Packages
