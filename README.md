@@ -28,6 +28,7 @@ For more information on building a flutter runtime environment, please refer to 
 ## Packages
 - [speech_to_text](https://pub.dev/packages/speech_to_text)
 - [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+- [firebase](https://firebase.google.com/)
 
 ## Author
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
