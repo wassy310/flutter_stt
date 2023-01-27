@@ -35,5 +35,8 @@ For more information on building a flutter runtime environment, please refer to 
 ## LICENSE
 [Apache-2.0 license](https://github.com/apache/.github/blob/main/LICENSE)
 
+## Version
+[Please see CHANGELOG](https://github.com/wassy310/flutter_stt/blob/master/CHANGELOG.md)
+
 ## Contact
 Bugs and feature requests please visit [GitHub Issues](https://github.com/wassy310/flutter_stt/issues).
