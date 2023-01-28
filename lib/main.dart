@@ -136,13 +136,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             trailing: Icon(Icons.arrow_forward),
           ),
-          // ListTile(
-          //   title: Text(
-          //     "Item",
-          //     style: TextStyle(fontSize: 18),
-          //   ),
-          //   trailing: Icon(Icons.arrow_forward),
-          // ),
         ]),
       ),
     );
