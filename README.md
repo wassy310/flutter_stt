@@ -31,12 +31,6 @@ Just the main ones.
 │   ├── firebase_options.dart
 │   ├── main.dart
 │   └── settings.dart
-├── linux
-|   └── .
-├── macos
-|   └── .
-├── windows
-|   └── .
 ├── web
 |   └── .
 └── pubspec.yaml
@@ -70,18 +64,6 @@ It often does the following
 
 - settings.dart  
 This file implementing a settings screen in the application.
-
-### linux
-This is a folder that is automatically created when you generate a Flutter project.  
-It contains the configuration and source code for Linux.
-
-### macos
-This is a folder that is automatically created when you generate a Flutter project.  
-It contains the configuration and source code for MacOS.
-
-### windows
-This is a folder that is automatically created when you generate a Flutter project.  
-It contains the configuration and source code for Windows.
 
 ### web
 This is a folder that is automatically created when you generate a Flutter project.  
