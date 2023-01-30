@@ -1,12 +1,13 @@
+import 'dart:async';
+import 'dart:developer' as dev;
+import 'firebase_options.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-import 'dart:async';
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
-import 'dart:developer' as dev;
+import 'settings.dart';
 
 void main() async {
   runZonedGuarded<Future<void>>(() async {
@@ -25,16 +26,15 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'STT',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Home'),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -119,23 +119,28 @@ class _MyHomePageState extends State<MyHomePage> {
       ]),
       // ignore_for_file: prefer_const_constructors
       drawer: Drawer(
-        child: ListView(children: const <Widget>[
-          DrawerHeader(
+        child: ListView(padding: EdgeInsets.zero, children: <Widget>[
+          const DrawerHeader(
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
             child: Text(
-              "Other features",
+              'Other features',
               style: TextStyle(fontSize: 24, color: Colors.white),
             ),
           ),
-          ListTile(
-            title: Text(
-              "Settings",
-              style: TextStyle(fontSize: 18),
+          InkWell(
+            child: ListTile(
+              title: Text('Settings'),
             ),
-            trailing: Icon(Icons.arrow_forward),
-          ),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Settings(),
+                  ));
+            },
+          )
         ]),
       ),
     );
