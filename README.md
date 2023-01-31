@@ -16,6 +16,15 @@ For more information on Flutter, please [click here](https://github.com/flutter/
   - Download the latest version
 For more information on building a flutter runtime environment, please refer to [this page](https://docs.flutter.dev/get-started/install).
 
+## Features
+It has the ability to convert words recognized by the microphone as voice into text and display them on the screen.  
+Using: Flutter- speech_to_text  
+The introduction to this package states.  
+> A library that exposes device specific speech recognition capability.This plugin contains a set of classes that make it easy to use the speech recognition capabilities of the underlying platform in Flutter. It supports Android, iOS and web. The target use cases for this library are commands and short phrases, not continuous spoken conversion or always on listening.
+>
+<img src="https://user-images.githubusercontent.com/74349349/215646173-2c2a4aa1-d0f6-4051-be23-d268e6955e15.png" width="300">
+<img src="https://user-images.githubusercontent.com/74349349/215646195-87bac6fc-ed03-4468-b25c-ab1b4b57e3b2.png" width="300">
+
 ## Directory
 Just the main ones.
 ```
