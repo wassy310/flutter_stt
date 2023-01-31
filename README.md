@@ -77,8 +77,8 @@ This file is used to set up the Project environment.
 |  :-:   | ------------------------- |
 | OS     | Windows 10 Pro            |
 | IDE    | Visual Studio Code        |
-| FW     | Flutter 3.9.9, Firebase   |
 | DEBUG  | Android 9                 |
+| OTHERS | Flutter 3.9.9, Firebase   |
 
 ## Packages, Tools
 - [speech_to_text](https://pub.dev/packages/speech_to_text)
