@@ -14,3 +14,7 @@
 ## v1.0.0
 - First release
 - Add settings feature
+
+## v1.1.0
+- Deployed firebase hosting
+- No direct impact on functionality
