@@ -19,9 +19,7 @@ void main() async {
 
     FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
 
-    runApp(ProviderScope(child: MyApp())
-        // const MyApp()
-        );
+    runApp(ProviderScope(child: MyApp()));
   },
       (error, stack) =>
           FirebaseCrashlytics.instance.recordError(error, stack, fatal: true));
