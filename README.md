@@ -90,7 +90,7 @@ This file is used to set up the Project environment.
 | iOS      | CodeMagic (iOS emulator - macOS M1 Standard VM) |
 | LANG     | Dart (Flutter3.9.9) |
 | BACKEND  | [Firebase](https://firebase.google.com/) |
-| PACKAGES | [speech_to_text](https://pub.dev/packages/speech_to_text), [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) |
+| OTHERS   | [speech_to_text](https://pub.dev/packages/speech_to_text), [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons), [flutter_hooks](https://pub.dev/packages/flutter_hooks), [hooks_riverpod](https://pub.dev/packages/hooks_riverpod) |
 
 ## Author
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
