@@ -81,18 +81,16 @@ It contains the configuration and source code for Web.
 This file is used to set up the Project environment.
 
 ## Environments
-|        |                           |
-|  :-:   | ------------------------- |
-| OS     | Windows 10 Pro            |
-| IDE    | Visual Studio Code        |
-| DEBUG  | Android 9                 |
-| LANG   | Dart(Flutter3.9.9)        |
-| OTHERS | Firebase                  |
-
-## Packages, Tools
-- [speech_to_text](https://pub.dev/packages/speech_to_text)
-- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
-- [Firebase](https://firebase.google.com/)
+|          |     |
+|   :-:    | --- |
+| OS       | Windows 10 Pro |
+| IDE      | Visual Studio Code |
+| DEBUG    | Xperia Ace (Android 9) |
+| Android  | Android Studio (Android emulator - Android 9) |
+| iOS      | CodeMagic (iOS emulator - macOS M1 Standard VM) |
+| LANG     | Dart (Flutter3.9.9) |
+| BACKEND  | [Firebase](https://firebase.google.com/) |
+| PACKAGES | [speech_to_text](https://pub.dev/packages/speech_to_text), [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) |
 
 ## Author
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
