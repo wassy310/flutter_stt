@@ -27,6 +27,7 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -50,24 +51,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String lastWords = '';
   String lastError = '';
   String lastStatus = '';
+  String lastWords = '';
   stt.SpeechToText speech = stt.SpeechToText();
-
-  Future<void> _speak() async {
-    bool available = await speech.initialize(
-        onError: errorListener, onStatus: statusListener);
-    if (available) {
-      await speech.listen(onResult: resultListener);
-    } else {
-      print("The user has denied the use of speech recognition.");
-    }
-  }
-
-  Future<void> _stop() async {
-    speech.stop();
-  }
 
   void resultListener(SpeechRecognitionResult result) {
     setState(() {
@@ -87,6 +74,20 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       lastStatus = status;
     });
+  }
+
+  Future<void> _speak() async {
+    bool available = await speech.initialize(
+        onError: errorListener, onStatus: statusListener);
+    if (available) {
+      await speech.listen(onResult: resultListener);
+    } else {
+      print("The user has denied the use of speech recognition.");
+    }
+  }
+
+  Future<void> _stop() async {
+    speech.stop();
   }
 
   @override
