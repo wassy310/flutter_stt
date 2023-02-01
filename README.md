@@ -1,5 +1,9 @@
 # flutter_stt
 
+## What is stt ?
+Abbreviation of "<span style="color: red;">S</span>peech <span style="color: red;">T</span>o <span style="color: red;">T</span>ext"  
+System that translates speech (spoken words) into text.
+
 ## Overview
 It is an app that turns speech into text using Flutter.  
 Intended for use with Android and iOS smartphones.  
