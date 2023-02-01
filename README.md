@@ -1,7 +1,7 @@
 # flutter_stt
 
 ## What is stt ?
-Abbreviation of "<span style="color: red;">S</span>peech <span style="color: red;">T</span>o <span style="color: red;">T</span>ext"  
+Abbreviation of "Speech To Text"  
 System that translates speech (spoken words) into text.
 
 ## Overview
