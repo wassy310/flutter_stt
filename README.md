@@ -8,7 +8,7 @@ System that translates speech (spoken words) into text.
 It is an app that turns speech into text using Flutter.  
 Intended for use with Android and iOS smartphones.  
 For more information on Flutter, please [click here](https://github.com/flutter/flutter).  
-※ It may not work properly if screen recording or other operations are running.
+⚠ It may not work properly if screen recording or other operations are running.
 
 ## Getting Started
 ### 1. Use Git
